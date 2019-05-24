@@ -1,0 +1,16 @@
+uuid: 0f2cd853-3b03-42d2-822e-850dc6aaf7d1
+langcode: en
+status: true
+dependencies: {  }
+id: local
+label: Local
+description: ''
+folder: ../config/envs/local
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - system.performance
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

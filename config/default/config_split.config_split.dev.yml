@@ -1,0 +1,14 @@
+uuid: 1ad2e5d1-d77f-4d36-a412-753bc44ff22e
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: Dev
+folder: ../config/envs/dev
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 1
