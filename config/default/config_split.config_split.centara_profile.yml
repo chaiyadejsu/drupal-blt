@@ -9,7 +9,8 @@ folder: ../config/profiles/centara
 module: {  }
 theme: {  }
 blacklist: {  }
-graylist: {  }
+graylist:
+  - core.extension
 graylist_dependents: true
 graylist_skip_equal: true
 weight: 0
