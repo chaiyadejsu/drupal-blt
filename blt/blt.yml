@@ -1,9 +1,9 @@
 project:
   machine_name: drupal-blt
   prefix: BLT
-  human_name: 'BLTed 10'
+  human_name: Centara
   profile:
-    name: lightning
+    name: centara
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
