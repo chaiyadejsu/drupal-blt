@@ -1,6 +1,6 @@
 uuid: 8c697d74-1c86-4263-949d-fc085e3678ee
 langcode: en
-status: true
+status: false
 dependencies: {  }
 id: centara_master
 label: 'Centara Master'

@@ -1,6 +1,6 @@
 uuid: 6ce03a2f-671d-4f7c-849e-ec5fa06b7b89
 langcode: en
-status: true
+status: false
 dependencies: {  }
 id: centara_brand
 label: 'Centara Brand'
