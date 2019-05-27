@@ -1,15 +1,15 @@
-uuid: 905623f0-458a-4fba-bce0-ee1f1a943329
+uuid: 8c697d74-1c86-4263-949d-fc085e3678ee
 langcode: en
 status: true
 dependencies: {  }
-id: ci
-label: CI
+id: centara_master
+label: 'Centara Master'
 description: ''
-folder: ../config/envs/ci
+folder: ../config/profiles/centara_master
 module: {  }
 theme: {  }
 blacklist: {  }
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
-weight: 1
+weight: 0
