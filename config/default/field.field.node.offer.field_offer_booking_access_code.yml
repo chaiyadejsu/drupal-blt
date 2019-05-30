@@ -1,0 +1,19 @@
+uuid: d2cf2f5f-0224-4697-b300-bcc1200155da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_offer_booking_access_code
+    - node.type.offer
+id: node.offer.field_offer_booking_access_code
+field_name: field_offer_booking_access_code
+entity_type: node
+bundle: offer
+label: 'Offer Booking Access Code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

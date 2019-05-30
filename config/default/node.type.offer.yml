@@ -1,0 +1,18 @@
+uuid: 9d527832-7ff6-44f2-aaa8-66e291b068b9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Offer
+type: offer
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

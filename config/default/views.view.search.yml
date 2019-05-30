@@ -77,7 +77,9 @@ display:
         options:
           view_modes:
             'entity:node':
+              article_news: default
               landing_page: teaser
+              offer: default
               page: teaser
       fields:
         rendered:

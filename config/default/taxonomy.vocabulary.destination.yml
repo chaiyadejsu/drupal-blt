@@ -1,0 +1,8 @@
+uuid: ea9460ed-b435-448c-8ece-69234b0eff89
+langcode: en
+status: true
+dependencies: {  }
+name: Destination
+vid: destination
+description: 'A list of the destinations, Centara currently have properties located. This will be a hierarchical list of countries & cities.'
+weight: 0

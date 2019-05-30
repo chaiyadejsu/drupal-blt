@@ -1,0 +1,18 @@
+uuid: b2ada719-c593-42f3-be93-3cbea3dacf81
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hotel_list
+id: block_content.hotel_list.scheduled_transition_state
+field_name: scheduled_transition_state
+entity_type: block_content
+bundle: hotel_list
+label: null
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

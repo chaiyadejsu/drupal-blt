@@ -1,0 +1,30 @@
+uuid: 44dc6049-376c-4059-ac30-2e60ecd96e55
+langcode: en
+status: true
+dependencies: {  }
+id: article_news_creator
+label: 'Article / News creator'
+weight: 7
+is_admin: false
+permissions:
+  - 'access ckeditor_media_browser entity browser pages'
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node article_news content'
+  - 'administer panelizer node article_news layout'
+  - 'change layouts in place editing'
+  - 'create article_news content'
+  - 'create url aliases'
+  - 'edit own article_news content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view article_news revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

@@ -1,0 +1,21 @@
+uuid: ef50bf34-e34a-4564-b0b2-50fe703ea8ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_offer_image
+    - node.type.offer
+id: node.offer.field_offer_image
+field_name: field_offer_image
+entity_type: node
+bundle: offer
+label: 'Offer Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings: {  }
+field_type: entity_reference

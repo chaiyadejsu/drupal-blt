@@ -1,0 +1,28 @@
+label: ค้นหา
+display:
+  default:
+    display_title: Master
+    display_options:
+      exposed_form:
+        options:
+          submit_button: ค้นหา
+          reset_button_label: Reset
+          exposed_sorts_label: 'Sort by'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          expose:
+            items_per_page_label: 'Items per page'
+            items_per_page_options_all_label: '- All -'
+            offset_label: Offset
+          tags:
+            previous: ‹‹
+            next: ››
+      filters:
+        search_api_fulltext:
+          expose:
+            label: คำค้นหา
+      title: ค้นหา
+  page:
+    display_title: Page

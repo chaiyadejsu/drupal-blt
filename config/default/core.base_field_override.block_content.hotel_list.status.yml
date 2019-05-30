@@ -1,0 +1,22 @@
+uuid: 34c874db-3402-4ed2-ab25-074dc1a5677a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hotel_list
+id: block_content.hotel_list.status
+field_name: status
+entity_type: block_content
+bundle: hotel_list
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

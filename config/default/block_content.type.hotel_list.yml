@@ -1,0 +1,8 @@
+uuid: 2956bc8c-7647-4453-a7e0-e6238b410694
+langcode: en
+status: true
+dependencies: {  }
+id: hotel_list
+label: 'Hotel List'
+revision: 1
+description: 'List of the hotels to be displayed in a brand.'

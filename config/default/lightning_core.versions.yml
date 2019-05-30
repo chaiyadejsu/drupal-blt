@@ -108,3 +108,7 @@ seckit: 1.1.0
 config_filter: 1.4.0
 config_split: 1.4.0
 profile_split_enable: 0.0.0
+language: 8.7.2
+locale: 8.7.2
+config_translation: 8.7.2
+content_translation: 8.7.2

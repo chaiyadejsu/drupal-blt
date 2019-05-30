@@ -1,0 +1,5 @@
+label: สถานะการเผยแพร่
+description: ระบุว่ามีการเผยแพร่ความคิดเห็น
+settings:
+  on_label: เปิด
+  off_label: ปิด

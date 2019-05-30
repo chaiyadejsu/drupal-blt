@@ -1,0 +1,20 @@
+uuid: f61a0d59-9b4f-4475-9dad-3bfd05f6d2d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article_news
+  module:
+    - path
+id: node.article_news.path
+field_name: path
+entity_type: node
+bundle: article_news
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

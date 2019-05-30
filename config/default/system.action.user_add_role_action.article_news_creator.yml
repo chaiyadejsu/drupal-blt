@@ -1,0 +1,14 @@
+uuid: 2f796b95-4718-4724-9606-3d8fc69951a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.article_news_creator
+  module:
+    - user
+id: user_add_role_action.article_news_creator
+label: 'Add the Article / News creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: article_news_creator

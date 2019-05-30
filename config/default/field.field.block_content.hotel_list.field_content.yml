@@ -1,0 +1,21 @@
+uuid: 52d22123-ca13-4ef6-8fb0-db2fc4d48c22
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hotel_list
+    - field.storage.block_content.field_content
+id: block_content.hotel_list.field_content
+field_name: field_content
+entity_type: block_content
+bundle: hotel_list
+label: Hotels
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,19 @@
+uuid: 49395237-66a7-4c6d-86e3-0ccdf04bc4f6
+langcode: en
+status: true
+dependencies: {  }
+id: article_news_reviewer
+label: 'Article / News reviewer'
+weight: 8
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any article_news content'
+  - 'edit any article_news content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

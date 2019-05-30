@@ -1,0 +1,20 @@
+uuid: c5e523f1-af3d-4bea-a6dc-79ed9e9d13d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.audio_file
+id: media.audio_file.uid
+field_name: uid
+entity_type: media
+bundle: audio_file
+label: 'Authored by'
+description: 'The user ID of the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

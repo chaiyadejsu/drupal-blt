@@ -1,0 +1,30 @@
+uuid: b037e6be-8d5f-450b-bf13-ab142d979c74
+langcode: en
+status: true
+dependencies: {  }
+id: offer_creator
+label: 'Offer creator'
+weight: 9
+is_admin: false
+permissions:
+  - 'access ckeditor_media_browser entity browser pages'
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node offer content'
+  - 'administer panelizer node offer layout'
+  - 'change layouts in place editing'
+  - 'create offer content'
+  - 'create url aliases'
+  - 'edit own offer content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view offer revisions'
+  - 'view own unpublished content'

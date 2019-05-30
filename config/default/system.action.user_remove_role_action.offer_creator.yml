@@ -1,0 +1,14 @@
+uuid: a457bca7-e1e1-43a7-9f06-e62ade4255ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.offer_creator
+  module:
+    - user
+id: user_remove_role_action.offer_creator
+label: 'Remove the Offer creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: offer_creator

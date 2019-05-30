@@ -1,0 +1,18 @@
+uuid: f1d2bbb2-5757-4915-8dec-96d8bab8ffe8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.journal
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.journal
+target_entity_type_id: taxonomy_term
+target_bundle: journal
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,18 @@
+uuid: 5ddc7d8d-370c-495c-9c8e-c7d09a5245ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hotel_list
+id: block_content.hotel_list.metatag
+field_name: metatag
+entity_type: block_content
+bundle: hotel_list
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

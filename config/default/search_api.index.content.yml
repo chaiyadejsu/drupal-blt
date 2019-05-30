@@ -39,7 +39,9 @@ field_settings:
         anonymous: anonymous
       view_mode:
         'entity:node':
+          article_news: default
           landing_page: full
+          offer: default
           page: default
   status:
     label: null

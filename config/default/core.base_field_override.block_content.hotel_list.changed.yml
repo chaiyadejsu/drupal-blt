@@ -1,0 +1,18 @@
+uuid: 9b364df9-5b78-4988-aa91-dfd0fe612d5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hotel_list
+id: block_content.hotel_list.changed
+field_name: changed
+entity_type: block_content
+bundle: hotel_list
+label: Changed
+description: 'The time that the custom block was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,21 @@
+uuid: cbf8f13b-b805-4342-8067-57c8bb83ba05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_offer_property
+    - node.type.offer
+id: node.offer.field_offer_property
+field_name: field_offer_property
+entity_type: node
+bundle: offer
+label: 'Offer Property'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

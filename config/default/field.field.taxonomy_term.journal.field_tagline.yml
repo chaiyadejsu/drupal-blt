@@ -1,0 +1,19 @@
+uuid: b73354e0-64db-4d9a-8237-8695ee1407d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_tagline
+    - taxonomy.vocabulary.journal
+id: taxonomy_term.journal.field_tagline
+field_name: field_tagline
+entity_type: taxonomy_term
+bundle: journal
+label: Tagline
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

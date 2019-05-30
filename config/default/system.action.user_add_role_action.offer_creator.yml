@@ -1,0 +1,14 @@
+uuid: ce050bf7-112d-4521-9de8-3ebf9399e6a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.offer_creator
+  module:
+    - user
+id: user_add_role_action.offer_creator
+label: 'Add the Offer creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: offer_creator

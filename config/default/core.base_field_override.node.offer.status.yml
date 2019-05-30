@@ -1,0 +1,22 @@
+uuid: 8d123c3a-2e77-40cf-b638-aac8fcd29219
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.offer
+id: node.offer.status
+field_name: status
+entity_type: node
+bundle: offer
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

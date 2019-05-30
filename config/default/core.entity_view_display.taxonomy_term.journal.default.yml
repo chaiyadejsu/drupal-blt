@@ -1,0 +1,52 @@
+uuid: 04f5a2d4-d7c4-4146-be87-29b3f6323ceb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.journal.field_brand_image
+    - field.field.taxonomy_term.journal.field_logo
+    - field.field.taxonomy_term.journal.field_tagline
+    - taxonomy.vocabulary.journal
+  module:
+    - image
+    - text
+id: taxonomy_term.journal.default
+targetEntityType: taxonomy_term
+bundle: journal
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_brand_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_logo:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_tagline:
+    weight: 3
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true

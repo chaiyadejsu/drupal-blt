@@ -1,0 +1,18 @@
+uuid: 58410fa3-67be-41d5-ba0f-422889acea61
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hotel_list
+id: block_content.hotel_list.info
+field_name: info
+entity_type: block_content
+bundle: hotel_list
+label: 'Block description'
+description: 'A brief description of your block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

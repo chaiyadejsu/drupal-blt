@@ -1,0 +1,8 @@
+uuid: c612769f-560e-450c-acfa-2d3fa196fba9
+langcode: en
+status: true
+dependencies: {  }
+name: Brand
+vid: journal
+description: 'Centara operate multiple hotel brands which properties must be associated to.'
+weight: 0

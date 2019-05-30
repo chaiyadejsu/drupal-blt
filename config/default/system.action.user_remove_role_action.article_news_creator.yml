@@ -1,0 +1,14 @@
+uuid: c6cbf9b2-004c-41a5-8a42-08686882656a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.article_news_creator
+  module:
+    - user
+id: user_remove_role_action.article_news_creator
+label: 'Remove the Article / News creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: article_news_creator

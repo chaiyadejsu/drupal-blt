@@ -1,0 +1,18 @@
+uuid: b40fd580-7f14-4bf1-904e-28c49d385048
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article_news
+id: node.article_news.moderation_state
+field_name: moderation_state
+entity_type: node
+bundle: article_news
+label: 'Moderation state'
+description: 'The moderation state of this piece of content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

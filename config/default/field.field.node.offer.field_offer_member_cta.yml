@@ -1,0 +1,23 @@
+uuid: e440d3d2-997e-4610-b517-0b918131563e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_offer_member_cta
+    - node.type.offer
+  module:
+    - link
+id: node.offer.field_offer_member_cta
+field_name: field_offer_member_cta
+entity_type: node
+bundle: offer
+label: 'Offer Member CTA'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

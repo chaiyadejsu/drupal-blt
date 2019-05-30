@@ -1,0 +1,21 @@
+uuid: f93f02d6-5dfa-444b-ae4a-cf68c92b7962
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_offer_centarathe1
+    - node.type.offer
+id: node.offer.field_offer_centarathe1
+field_name: field_offer_centarathe1
+entity_type: node
+bundle: offer
+label: 'Offer Centarathe1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

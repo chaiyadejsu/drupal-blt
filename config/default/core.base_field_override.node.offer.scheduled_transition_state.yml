@@ -1,0 +1,18 @@
+uuid: 5bdd2be8-b16c-4dbe-9f73-689c781634a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.offer
+id: node.offer.scheduled_transition_state
+field_name: scheduled_transition_state
+entity_type: node
+bundle: offer
+label: null
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

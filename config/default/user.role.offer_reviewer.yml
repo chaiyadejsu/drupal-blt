@@ -1,0 +1,19 @@
+uuid: 495b562d-7a30-4786-aa86-bc7565ca0974
+langcode: en
+status: true
+dependencies: {  }
+id: offer_reviewer
+label: 'Offer reviewer'
+weight: 10
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any offer content'
+  - 'edit any offer content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

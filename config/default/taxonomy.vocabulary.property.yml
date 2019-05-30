@@ -1,0 +1,8 @@
+uuid: e4cc7d07-7ee3-4f2f-b397-7169701ddcda
+langcode: en
+status: true
+dependencies: {  }
+name: Property
+vid: property
+description: '(ET002): A full list of the properties that Centara manage. This vocabulary will be translatable.'
+weight: 0

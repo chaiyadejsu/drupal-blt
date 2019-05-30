@@ -1,0 +1,60 @@
+uuid: be0d7aef-374a-4022-adf3-84be06696ad0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hotel_list
+    - field.field.block_content.hotel_list.field_content
+    - field.field.block_content.hotel_list.field_subtitle
+    - field.field.block_content.hotel_list.field_title
+id: block_content.hotel_list.default
+targetEntityType: block_content
+bundle: hotel_list
+mode: default
+content:
+  field_content:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_subtitle:
+    weight: 28
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_title:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

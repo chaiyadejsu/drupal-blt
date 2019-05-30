@@ -1,0 +1,18 @@
+uuid: e9e51002-fd95-47d2-9e10-11d7ad078913
+langcode: en
+status: true
+dependencies:
+  config:
+    - media.type.tweet
+id: media.tweet.created
+field_name: created
+entity_type: media
+bundle: tweet
+label: 'Authored on'
+description: 'The time the media item was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getRequestTime'
+settings: {  }
+field_type: created
