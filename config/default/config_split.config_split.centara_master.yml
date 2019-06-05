@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 uuid: 8c697d74-1c86-4263-949d-fc085e3678ee
 langcode: en
 status: false
+=======
+uuid: 5cf908b1-702b-4aa6-9a24-3610652cde85
+langcode: en
+status: true
+>>>>>>> BLT-003: manually create subprofiles on docroot and on config.
 dependencies: {  }
 id: centara_master
 label: 'Centara Master'

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 uuid: 46a01e3b-ad9c-43b6-b776-c8f497e89383
+=======
+uuid: 65f98491-274f-4d06-a555-5876d5aa8d02
+>>>>>>> BLT-003: manually create subprofiles on docroot and on config.
 langcode: en
 status: true
 dependencies: {  }

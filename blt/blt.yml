@@ -1,7 +1,11 @@
 project:
   machine_name: drupal-blt
   prefix: BLT
+<<<<<<< HEAD
   human_name: Centara
+=======
+  human_name: 'Centara'
+>>>>>>> BLT-003: manually create subprofiles on docroot and on config.
   profile:
     name: centara
   local:

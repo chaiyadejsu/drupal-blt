@@ -6,4 +6,7 @@ base profile: lightning
 core: 8.x
 dependencies:
   - acsf
+<<<<<<< HEAD
   - profile_config_overrider
+=======
+>>>>>>> BLT-003: manually create subprofiles on docroot and on config.
