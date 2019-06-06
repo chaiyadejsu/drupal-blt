@@ -1,0 +1,8 @@
+name: 'Centara'
+type: profile
+description: 'Centara lightning sub profile.'
+version:
+base profile: lightning
+core: 8.x
+dependencies:
+  - acsf

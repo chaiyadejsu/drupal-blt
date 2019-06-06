@@ -1,0 +1,8 @@
+name: 'Centara Master'
+type: profile
+description: 'Centara master lightning sub profile.'
+version:
+base profile: centara
+core: 8.x
+dependencies:
+  - acsf
