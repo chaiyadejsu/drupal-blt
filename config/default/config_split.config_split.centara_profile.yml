@@ -1,0 +1,16 @@
+uuid: 6575db93-4d2d-4665-9d48-cfcf08ac1b96
+langcode: en
+status: true
+dependencies: {  }
+id: centara_profile
+label: 'Centara Profile'
+description: ''
+folder: ../config/profiles/centara
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - core.extension
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

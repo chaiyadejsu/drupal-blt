@@ -1,0 +1,16 @@
+uuid: 45203fbd-4c8b-4967-9504-55ca8ad5f26f
+langcode: en
+status: false
+dependencies: {  }
+id: centara_brand
+label: 'Centara Brand'
+description: ''
+folder: ../config/profiles/centara_brand
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - core.extension
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
